@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
   document.querySelector("form").addEventListener("submit", function(event) {
-    console.log('here')
+    console.log(event)
     // const description = document.getElementById("new-task-description");
     // const text = description.innerText;
     // description.innerText = ''
