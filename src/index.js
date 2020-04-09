@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
   document.querySelector("form").addEventListener("submit", function(event) {
-    console.log(event)
     const description = document.getElementById("new-task-description");
     const text = description.value;
+    console.log(text)
     // description.innerText = ''
     // const li = document.createElement('li')
     // li.innerText = text
