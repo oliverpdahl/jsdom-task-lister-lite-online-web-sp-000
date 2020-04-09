@@ -4,10 +4,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const description = document.getElementById("new-task-description");
     const text = description.value;
     console.log(text)
-    // description.innerText = ''
-    // const li = document.createElement('li')
-    // li.innerText = text
-    // document.getElementById('tasks').appendChild(li)
+    description.value = ''
+    const li = document.createElement('li')
+    li.innerText = text
+    document.getElementById('tasks').appendChild(li)
     event.preventDefault();
   });
 });
